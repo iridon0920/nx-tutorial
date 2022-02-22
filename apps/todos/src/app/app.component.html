@@ -1,1 +1,9 @@
-<nx-tutorial-nx-welcome></nx-tutorial-nx-welcome>
+<h1>Todos</h1>
+
+<ul>
+  <li *ngFor="let t of todos" class="todo">
+    {{ t.title }}
+  </li>
+
+  <button id="add-todo" (click)="addTodo()">Add Todo</button>
+</ul>
