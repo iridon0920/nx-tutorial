@@ -1,9 +1,5 @@
 <h1>Todos</h1>
 
-<ul>
-  <li *ngFor="let t of todos" class="todo">
-    {{ t.title }}
-  </li>
+<nx-tutorial-todos [todos]="todos"></nx-tutorial-todos>
 
-  <button id="add-todo" (click)="addTodo()">Add Todo</button>
-</ul>
+<button id="add-todo" (click)="addTodo()">Add Todo</button>
