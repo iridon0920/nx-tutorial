@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "counter": "libs/counter",
     "data": "libs/data",
     "products": "libs/products",
     "todos": "apps/todos",

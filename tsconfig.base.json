@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-tutorial/counter": ["libs/counter/src/index.ts"],
       "@nx-tutorial/data": ["libs/data/src/index.ts"],
       "@nx-tutorial/products": ["libs/products/src/index.ts"],
       "@nx-tutorial/ui": ["libs/ui/src/index.ts"]

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { StoreModule } from '@ngrx/store';
@@ -9,6 +8,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { UiModule } from '@nx-tutorial/ui';
+import { CounterModule } from '@nx-tutorial/counter';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -16,6 +16,7 @@ import { UiModule } from '@nx-tutorial/ui';
     BrowserModule,
     HttpClientModule,
     UiModule,
+    CounterModule,
     StoreModule.forRoot(
       {},
       {
